@@ -24,19 +24,25 @@
 
 [-] Mostrar el marcado e indicar quien ganó
 
-[ ] Agregar teacher y student1 a teamB sin variables
+[ ] Agregar jugadores a teamA usando iteración
 
-[ ] Agregar player lines 12-17 en teamA sin variables
+[ ] Agregar jugadores a teamB usando iteración
+
+[ ] Agregar jugares a teamC y teamD
+
+[ ] Agregar jugares a teamE y teamF
+
+[ ] Agregar jugares a teamG y teamH
 
 ![class_diagram.png](class_diagram.png)
 
 
 ## Actualización TP
-[ ] Crear la clase Llave que hereda de Season. Tiene que definido:
+[-] Crear la clase Llave que hereda de Season. Tiene que definido:
 
     - ArrayList<Equipo> getEquiposQueAvanzan()
 
-[ ] Crear la clase Grupo que hereda de Season. Tiene que definido:
+[-] Crear la clase Grupo que hereda de Season. Tiene que definido:
 
     - ArrayList<Equipo> getEquiposQueAvanzan()
 
