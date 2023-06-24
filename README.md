@@ -24,6 +24,10 @@
 
 [-] Mostrar el marcado e indicar quien ganó
 
+[ ] Agregar teacher y student1 a teamB sin variables
+
+[ ] Agregar player lines 12-17 en teamA sin variables
+
 ![class_diagram.png](class_diagram.png)
 
 
@@ -42,13 +46,13 @@
     - private int visitantGoalCounter;
     - getter y setters
 
-[ ] Actualizar la clase Match
+[-] Actualizar la clase Match
 
     - sacamos localGoalCounter y visitantGoalCounter (sus getters y setter tambien) y dejamos MatchResult result;
 
-[ ] Agregar en MatchResult
+[-] Agregar en MatchResult
 
     - ganoLocal(): boolean
     - empate(): boolean
 
-[ ] modificar getWinner()
+[-] modificar getWinner()

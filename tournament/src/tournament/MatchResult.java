@@ -1,8 +1,34 @@
 package tournament;
 
 public class MatchResult {
+  
+    public boolean localWin(){
+        if (localGoalCounter>visitantGoalCounter){
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public boolean tie(){
+        if (localGoalCounter==visitantGoalCounter){
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public String getWinner (){
+        if (localWin()==true){
+            return localTeam;
+        } else if (tie()==true){
+            return "Empate";
+        } else {
+            return visitantTeam;
+        }
+
     private int localGoalCounter;
-    private int localVisitantCounter;
+    private int visitantGoalCounter;
 
     public MatchResult() {
 
@@ -16,11 +42,10 @@ public class MatchResult {
         this.localGoalCounter = localGoalCounter;
     }
 
-    public int getLocalVisitantCounter() {
-        return localVisitantCounter;
+    public int getVisitantGoalCounter() {return visitantGoalCounter;
     }
 
-    public void setLocalVisitantCounter(int localVisitantCounter) {
-        this.localVisitantCounter = localVisitantCounter;
+    public void setVisitantGoalCounter(int visitantGoalCounter) {
+        this.visitantGoalCounter = visitantGoalCounter;
     }
 }
