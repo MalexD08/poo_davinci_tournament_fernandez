@@ -24,15 +24,13 @@
 
 [-] Mostrar el marcado e indicar quien ganó
 
-[ ] Agregar jugadores a teamA usando iteración
+[-] Agregar jugadores a teamA usando iteración
 
 [ ] Agregar jugadores a teamB usando iteración
 
 [-] Agregar jugares a teamC y teamD
 
-[ ] Agregar jugares a teamE y teamF
-
-[ ] Agregar jugares a teamG y teamH
+[-] Agregar jugares a teamE y teamF
 
 ![class_diagram.png](class_diagram.png)
 
@@ -62,3 +60,15 @@
     - empate(): boolean
 
 [-] modificar getWinner()
+
+[ ] En la clase Team, agregar el constructor que soporte String[] players y que itere agregando players
+
+[ ] Migrar en Main las implementaciones de la creación de teams, usando el constructor (String, String[])
+
+[ ] Eliminar objetos de Player en Main
+
+[ ] Agregar partidos entre teamC y teamD, teamE y teamF
+
+[ ] Agregar jugadorres a teamG y teamH, y el partido
+
+
